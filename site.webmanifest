@@ -1,19 +1,19 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "", // The name of the web app (can be left empty for now)
+  "short_name": "", // A shorter name for the app (can also be left empty)
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/android-chrome-192x192.png", // Path to the icon file for smaller devices
+      "sizes": "192x192", // Size of the icon
+      "type": "image/png" // Type of the icon image
     },
     {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/android-chrome-512x512.png", // Path to the icon file for larger devices
+      "sizes": "512x512", // Size of the icon
+      "type": "image/png" // Type of the icon image
     }
   ],
-  "theme_color": "#B2A59B",
-  "background_color": "#B2A59B",
-  "display": "standalone"
+  "theme_color": "#B2A59B", // The color theme of the web app
+  "background_color": "#B2A59B", // The background color of the web app
+  "display": "standalone" // Defines how the web app should be displayed (standalone mode)
 }
