@@ -1,77 +1,86 @@
+/* Global Styles */
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: "Marck Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #EEF0F4;
-    color: #432000;
-    user-select: none;
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    font-family: "Marck Script", cursive; /* Set font family to Marck Script */
+    font-weight: 400; /* Set font weight to normal */
+    font-style: normal; /* Set font style to normal */
+    background-color: #EEF0F4; /* Set background color to light gray */
+    color: #432000; /* Set text color to dark brown */
+    user-select: none; /* Disable user screen selection */
 }
 
+/* Container Styles */
 .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    margin: 30px auto;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    max-width: 320px; /* Set maximum width of container */
+    margin: 30px auto; /* Center container horizontally with auto margin */
 }
 
+/* Image Styles */
 img {
-    width: 150px;
-    margin: 0 auto;
+    width: 150px; /* Set width of images */
+    margin: 0 auto; /* Center images horizontally */
 }
 
+/* Input Styles */
 input {
-    color: #432000;
-    background-color: #DCE1EB;
-    border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    font-family: "Marck Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    margin: 10px 0;
+    color: #432000; /* Set text color for input */
+    background-color: #DCE1EB; /* Set background color for input */
+    border: 0; /* Remove border */
+    padding: 15px; /* Add padding */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Set font size */
+    text-align: center; /* Center text horizontally */
+    font-family: "Marck Script", cursive; /* Set font family */
+    font-weight: 400; /* Set font weight */
+    font-style: normal; /* Set font style */
+    margin: 10px 0; /* Add margin */
 }
 
+/* Button Styles */
 button {
-    color: #FDFDFD;
-    background-color: #B67352;
-    border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    font-family: "Marck Script", cursive;
-    font-weight: 400;
-    font-style: normal;
+    color: #FDFDFD; /* Set text color for buttons */
+    background-color: #B67352; /* Set background color for buttons */
+    border: 0; /* Remove border */
+    padding: 15px; /* Add padding */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Set font size */
+    text-align: center; /* Center text horizontally */
+    font-family: "Marck Script", cursive; /* Set font family */
+    font-weight: 400; /* Set font weight */
+    font-style: normal; /* Set font style */
 }
 
+/* Button Hover Styles */
 button:hover {
-    background-color: #3E3232;
-    cursor: pointer;
+    background-color: #3E3232; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+/* List Styles */
 ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow list items to wrap */
+    gap: 10px; /* Add gap between list items */
 }
 
+/* List Item Styles */
 ul li {
-    font-size: 20px;
-    background-color: #FFFDF8;
-    padding: 15px;
-    border-radius: 8px;
-    flex-grow: 1;
-    text-align: center;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+    font-size: 20px; /* Set font size */
+    background-color: #FFFDF8; /* Set background color for list items */
+    padding: 15px; /* Add padding */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    flex-grow: 1; /* Allow items to grow flexibly */
+    text-align: center; /* Center text horizontally */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
 }
 
+/* List Item Hover Styles */
 ul li:hover {
-    background-color: #B2A59B;
-    cursor: pointer;
+    background-color: #B2A59B; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }

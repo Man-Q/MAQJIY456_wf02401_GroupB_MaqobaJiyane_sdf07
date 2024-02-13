@@ -1,28 +1,62 @@
 <!doctype html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <!-- Link to normalize.css, which ensures consistent rendering of HTML elements across different browsers -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <!-- Set the title of the HTML document -->
         <title>Shopping List</title>
+        
+        <!-- Define the viewport for responsive design -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Preconnect hints for faster font loading from Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <!-- Link to Rubik font family from Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        
+        <!-- Specify Apple Touch Icon for Apple devices -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        
+        <!-- Specify favicon for the browser tab -->
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        
+        <!-- Link to web app manifest file -->
         <link rel="manifest" href="/site.webmanifest">
+        
+        <!-- Another preconnect hint for Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <!-- Link to Marck Script font family from Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+        
+        <!-- Link to custom CSS file for additional styling -->
         <link rel="stylesheet" href="index.css">
     </head>
+    
     <body>
         <div class="container">
+            <!-- Image element displaying a decorative image of a cat -->
             <img src="assets/cat.png">
+        
+            <!-- Input field for entering items to add to the shopping list -->
             <input type="text" id="input-field" placeholder="Bread">
+        
+            <!-- Button to add items to the shopping list -->
             <button id="add-button">Add to list</button>
+        
+            <!-- Unordered list to display the shopping list items -->
             <ul id="shopping-list">
+                <!-- List items will be dynamically added here using JavaScript -->
             </ul>
         </div>
+        
+        <!-- Script tag to include the JavaScript file for managing the shopping list -->
         <script src="index.js" type="module"></script>
+        
     </body>
 </html>
